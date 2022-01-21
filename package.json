@@ -27,9 +27,8 @@
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
-    "install gh-pages": "npm install gh-pages --save-dev",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "npm run build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
